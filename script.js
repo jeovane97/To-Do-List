@@ -16,6 +16,28 @@ span.style.textDecoration='none'
 }
 }
 function apagar (value){
-  value.parentElement.remove();
-  console.log(value)
+  Swal.fire({
+  title: "Deseja excluir tarefa?",
+  text: "Esta ação não poderá ser desfeita!",
+  icon: "warning",
+  showCancelButton: true,
+  confirmButtonColor: "#3085d6",
+  cancelButtonColor: "#d33",
+  cancelButtonText:"Cancelar",
+  confirmButtonText: "Sim, deletar !",
+}).then((result) => {
+  console.log(result)  
+  if (result.isConfirmed) {
+      value.parentElement.remove()
+    Swal.fire({
+      title: "Deletada!",
+      text: "Sua tarefa foi deletada com sucesso.",
+      icon: "success",
+ 
+    });
+
+  }
+});
+ 
+
 }

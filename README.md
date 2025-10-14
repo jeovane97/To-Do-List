@@ -6,5 +6,6 @@
 <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" height="80px" width="80px"/>
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black" height="140px" width="140px"/>
 <h4><b>•Resposividade:</b></h4>
-
+<img src="https://github.com/jeovane97/To-Do-List/blob/master/assets/Celular%20ToDo%20List.png?raw=true" height="600px" width="300px" />
+ <img src="https://github.com/jeovane97/To-Do-List/blob/master/assets/Descktop%20ToDo%20List.png?raw=true" height="600px" width="1000px"/>
 
